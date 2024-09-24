@@ -1,0 +1,66 @@
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ ls
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ touch file1.txt
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ touch file2.txt
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ touch file3.txt
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file1.txt
+        file2.txt
+        file3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ git add file1.txt
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file2.txt
+        file3.txt
+
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ global user.name "MohitSingh9454"
+bash: global: command not found
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ global user.name "Mohit Singh"
+bash: global: command not found
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ config --global user.name "Mohit Singh"
+bash: config: command not found
+
+Acer@LAPTOP-SMOPAF5F MINGW64 ~/First repository (master)
+$ git config --global user.name "MohitSingh9454"
